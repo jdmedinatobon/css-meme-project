@@ -1,0 +1,72 @@
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#meme-container {
+  /* width: 50%; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7.5%;
+  position: relative;
+}
+
+#top-left {
+  position: absolute;
+  background: transparent;
+  top: 27px;
+  left: 196px;
+  text-align: center;
+}
+
+#top-right {
+  position: absolute;
+  background: transparent;
+  top: 27px;
+  left: 540px;
+  text-align: center;
+}
+
+#bottom-left {
+  position: absolute;
+  background: transparent;
+  top: 250px;
+  left: 223px;
+  text-align: center;
+}
+
+#bottom-right {
+  position: absolute;
+  background: transparent;
+  bottom: 95px;
+  left: 485px;
+  transform: rotate(5deg);
+}
+
+img {
+  /* border: 5px solid white; */
+  width: 670px;
+}
+
+* {
+  color: black;
+  font-size: 28pt;
+  line-height: 1px;
+}
+
+html {
+  background: rgb(243, 243, 243);
+}
